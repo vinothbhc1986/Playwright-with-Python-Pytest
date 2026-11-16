@@ -1,0 +1,11 @@
+[project]
+name = "pw-with-python"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "playwright>=1.65.2",
+    "pytest>=9.2.0",
+    "pytest-asyncio>=1.5.0",
+    "pytest-playwright>=0.10.0",
+    "pytest-xdist>=3.8.0",
+]
